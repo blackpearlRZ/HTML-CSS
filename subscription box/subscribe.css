@@ -1,15 +1,16 @@
+/* Set box-sizing property to inherit for all elements before and after */
 *:before,
 *:after{
     box-sizing: inherit;
 }
 
-
+/* Define custom color variables */
 :root{
     --clr-bg: #880808;
     --clr-primary: rgb(138, 28, 21);
     --clr-secondary: rgba(236, 38, 24, 0.65);
 }
-
+/* Style the body element */
 body{
     background-color: var(--clr-bg);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -21,7 +22,7 @@ body{
     overflow: hidden;
     column-gap: 40px;
 }
-
+/* Style the subscription form */
 .subscription-form{
     background-color: #cccccc9c;
     padding: 30px;
