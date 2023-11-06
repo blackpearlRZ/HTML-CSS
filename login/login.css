@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    background: linear-gradient( 90deg ,#80B3FF ,#D0A2F7, #B15EFF);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+    padding-right: 5rem;
+    padding-left: 5rem;
+    gap: 3rem;
+}
+
+
+.menu{
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+    color: rgb(23, 23, 23);
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.login{
+    background-color: transparent;
+    border: none;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.login:hover{
+    border: solid #B15EFF;
+    padding: 0.4rem 1rem;
+    border-radius: 30px;
+}
+
+.shop:hover{
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 1) ;
+}
+
+.shop{
+    color: white;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu2{
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+    color: rgb(23, 23, 23);
+}
+
+span{
+    font-weight: bold;
+    font-family: "poppins";
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 400px;
+    justify-content: center;
+    padding: 5rem;
+    padding-right: 2.2rem;
+    padding-bottom: 0;
+    text-align: start;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.pictures{
+    display: flex;
+}
+.picture{
+    width: 450px;
+    display: flex;
+    border-radius: 30px;
+    margin: 2rem;
+}
+
+.pictures,
+.container{
+    display: inline-block;
+}
+
+.email{
+    padding: 0.4rem;
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+}
+
+p{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+
+}
+
+.block{
+    display: flex;
+    align-items: center;
+}
