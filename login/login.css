@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body{
-    background: linear-gradient( 90deg ,#80B3FF ,#D0A2F7, #B15EFF);
+    background: linear-gradient(90deg ,#80B3FF ,#D0A2F7, #B15EFF);
     background-repeat: no-repeat;
     min-height: 100vh;
 }
@@ -121,10 +121,24 @@ p{
     font-size: 14px;
     font-weight: bold;
     color: rgb(61, 61, 61);
-
+    width: 620px;
 }
 
 .block{
     display: flex;
     align-items: center;
+}
+
+.input{
+    border: black solid;
+    width: 27.6rem;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.shopify{
+    width: 4px;
+}
+.logo1{
+    width: 3rem;
 }
