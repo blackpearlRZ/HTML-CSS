@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -128,15 +129,17 @@ p{
 .block{
     display: flex;
     align-items: center;
+    align-content: flex-start;
 }
 
 .input{
     border: black solid;
-    width: 27.6rem;
+    width: 460px;
     background-color: white;
     border-radius: 30px;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding: 2px;
 }
 
 .shopify{

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400;1,500&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Noto+Serif+Balinese&family=Poppins:wght@400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image:url(kawazaki.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 9% 50%;
+}
+
+.btns{
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Poppins";
+    cursor: pointer;
+    padding: 0 1rem;
+    color: white;
+    position: relative;
+    width: 8rem;
+}
+header button:hover{
+    text-decoration: underline 2px white;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding-left: 2rem;
+}
+header h1{
+    color: white;
+    font-size: 1.5rem;
+    font-family: "poppins";
+}
+.title1 span{
+    color: transparent;
+    background-image: url(kawazaki.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 9% 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.title1{
+    width: fit-content;
+    height: 90vh;
+    backdrop-filter: blur(1rem);
+    padding-left: 8rem;
+    padding-top: 5rem;
+}
+.title2{
+    padding-top: 6rem;
+}
+.title{
+    display: flex;
+    color: rgb(2, 85, 2);
+    font-family: "poppins";
+    font-size: 4.5rem;
+}
+.ninja{
+    padding-left: 12rem;
+}
